@@ -1,0 +1,18 @@
+#ifndef DATABASE_H_
+#define DATABASE_H_
+#endif // SERVER_H_INCLUDED
+
+
+#include "Server.h"
+
+ST_accountsDB_t accountsDB[20]=
+{
+
+
+    {70000.0, RUNNING, "4785214569236549"},
+    {5000.0, BLOCKED,  "1975648752136954"},
+    {2000.0, RUNNING,  "1234567891234567"},
+    {10000.0, RUNNING, "3333333334444444"},
+    {5000.0, RUNNING,  "5555555558888888"}
+};
+
